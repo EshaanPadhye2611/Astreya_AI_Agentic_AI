@@ -1,133 +1,71 @@
-🌆 Astreya AI – The Living Pulse of Smart Cities
+ 🌆 Astreya AI – The Living Pulse of Smart Cities
 
-🔍 Problem Statement
+ 🔍 Problem Statement
 
-Cities like Bengaluru produce enormous amounts of unstructured and noisy data every minute.
+Modern cities like Bengaluru generate massive amounts of unstructured, noisy, and rapidly outdated data — from traffic disruptions and civic complaints to hyperlocal events and social media posts. This data is often:
 
-Information such as civic complaints, traffic disruptions, hyperlocal events, and social media content is:
+- Siloed across platforms
+- Redundant and hard to verify
+- Difficult to synthesize into actionable insights
 
-Scattered across platforms
 
-Siloed and repetitive
-
-Becomes outdated within moments
 
 🚀 Solution: Astreya AI
-Astreya AI is a real-time, agentic, multimodal platform that listens, interprets, predicts, and acts on urban data streams.
+
+Astreya AI is an **agentic, multimodal intelligence platform** designed to act as a city's real-time nervous system. It collects, interprets, predicts, and acts on live urban data streams.
+
+
 
 💡 Key Capabilities
 
-Multimodal Input
+📥 Multimodal Input: Citizens can report issues through geo-tagged text, images, or videos.
 
-Accepts geo-tagged text, images, or videos from citizens
+🧠 Gemini AI Analysis: Visual and textual data is analyzed and categorized using Gemini's multimodal models.
 
-Analyzed by Gemini AI for visual and language understanding
+📢 Actionable Alerts: Raw reports are converted into clear, localized updates.
+  > _Example: “Waterlogging reported near Indiranagar Metro — expect 20-min delays. Alternate route: 100ft Road.”_
+> 
+🗺️ Interactive Map Dashboard: Events are auto-clustered, severity-tagged, and plotted on a live map.
 
-Actionable Alerts
+🌐 Multilingual Support: Alerts and interactions in English, Kannada, Hindi, and more.
 
-Synthesizes raw reports into meaningful insights
+📊 Mood Mapping: Aggregates and visualizes public sentiment across regions.
 
-Example:
+🔮 Predictive Warnings: Uses past patterns to forecast issues like traffic jams or protests.
 
-"🚧 Waterlogging reported near Indiranagar Metro — expect 20-min delays. Alternate route: 100ft Road."
+🔄 Auto-Routing to Authorities: Incidents are forwarded to appropriate agencies (BBMP, Traffic Police, etc.) in real-time.
 
-Smart Map Dashboard
+✅ Resolution Tracking: Monitors complaint lifecycles, feedback, and departmental accountability.
 
-Live visual of events with clustering and severity tags
 
-Dynamic filtering for categories like Traffic, Utilities, Social, etc.
 
-Multilingual & Inclusive
+ 👥 Stakeholders
 
-Supports Kannada, Hindi, English, and more
+ For Citizens
+- Simple and intuitive issue reporting
+- Real-time updates with optional anonymity
+- Personalized neighborhood feeds
+- Image/video-based reporting
 
-Localized feeds and alerts based on user region and language
+ For Government Agencies
+- Firebase-powered command dashboard
+- Smart filters: location, category, severity
+- Cross-department routing engine
+- Resolution and SLA tracking
+- Visual analytics and trends
 
-Mood Mapping
 
-Tracks public sentiment across neighborhoods
 
-Creates a visual mood pulse of the city
+ 🛠️ Tech Stack
 
-Predictive Intelligence
+| Layer        | Technology                            |
+|--------------|----------------------------------------|
+| Frontend     | React, TypeScript, Tailwind CSS        |
+| Backend      | Firebase Realtime DB, Cloud Functions  |
+| AI Engine    | Gemini Pro Multimodal (Text, Image)    |
+| Utilities    | Vite, Node.js, Jest, Cypress           |
 
-Learns from past patterns to forecast traffic jams, protest routes, etc.
 
-Sends early warnings to users
 
-Real-Time Routing to Authorities
 
-Automatically routes complaints to appropriate agencies
-
-e.g., Water issue → BWSSB, Road issue → BBMP
-
-Tracks resolution timelines and updates citizens
-
-👥 Stakeholders
-
-For Citizens:
-
-Easy issue reporting via chatbot or UI
-
-Visual proof uploads (image/video)
-
-Personalized and regional feed
-
-Privacy-aware reporting options
-
-Auto-updated alert notifications
-
-For Government Agencies:
-
-Live Firebase-powered dashboard
-
-Smart filters: category, severity, location
-
-Inter-agency routing of complaints
-
-Tracks service-level agreements (SLAs) and citizen satisfaction
-
-Trends and analytics for planning
-
-🛠️ Tech Stack
-
-Frontend: React + TypeScript + TailwindCSS
-
-AI Engine: Gemini Pro Multimodal (Text, Image, Video)
-
-Backend: Firebase Realtime DB, Cloud Functions
-
-Utilities: Node.js, Vite, Jest, Cypress
-
-📁 Folder Structure Overview
-
-src/components/ – UI Components (MapDashboard, Header, etc.)
-
-src/services/ – API integrations (Firebase, Gemini)
-
-src/hooks/ – Custom hooks like useTranslation, useGeoLocation
-
-src/constants.ts – Static keys and config values
-
-src/types.ts – Type definitions (CityEvent, Location, User, etc.)
-
-src/App.tsx – Main app logic
-
-src/main.tsx – Entry point
-
-⚙️ Setup Instructions
-
-Clone the repository
-git clone https://github.com/yourusername/astreya-ai.git
-
-Navigate to frontend
-cd Frontend
-
-Install dependencies
-npm install
-
-Run the development server
-npm run dev
-
-Add your API keys in .env file (Firebase, Gemini, etc.)
 
