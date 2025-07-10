@@ -1,0 +1,5 @@
+{
+  "name": "Astreya Ai",
+  "description": "An admin dashboard for authorities and departments to monitor, triage, and respond to civic issues in real-time using AI-powered insights from Astreya Ai. The system provides a unified view of the city's pulse, turning scattered signals into actionable intelligence.",
+  "requestFramePermissions": []
+}
